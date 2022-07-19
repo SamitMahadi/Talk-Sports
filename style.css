@@ -1,0 +1,100 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+    width: 1150px;
+    padding: 30px;
+
+}
+
+.top-section {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-left: 20px;
+
+
+    justify-content: center;
+
+}
+
+.marcello {
+    width: 581px;
+    height: 613px;
+}
+
+.main-heading {
+    font-size: 70px;
+    width: 531px;
+    height: 240px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.paragraph-1 {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 5px;
+    text-align: left;
+
+
+}
+
+.live {
+    color: white;
+    background-color: #DD0000;
+    border: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+
+}
+
+/* article styles */
+.container-2 {}
+
+.filter-button {
+    background-color: white;
+    color: black;
+    width: 252px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600px;
+
+
+}
+
+#different {
+    color: white;
+    background-color: #DD0000;
+}
+
+.filter-menu {
+    width: 305px;
+    height: 295px;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    border-radius: 30px;
+}
