@@ -21,6 +21,8 @@ body {
 
 .container-2 {
     padding-left: 30px;
+    display: flex;
+
 }
 
 .top-section {
@@ -74,8 +76,10 @@ body {
 /* article styles */
 .article-1 {
     padding-left: 95px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    gap: 20px;
+
+
 }
 
 
@@ -127,15 +131,19 @@ body {
 
 .blog-icon {
     display: flex;
+    gap: 100px;
+    padding-top: -100px;
 }
 
-.container-3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+
 
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 2px;
+    flex-wrap: nowrap;
+    justify-items: center;
+
 
 }
