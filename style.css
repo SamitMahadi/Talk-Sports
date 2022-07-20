@@ -74,6 +74,8 @@ body {
 /* article styles */
 .article-1 {
     padding-left: 95px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -130,4 +132,10 @@ body {
 .container-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
