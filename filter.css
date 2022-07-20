@@ -99,7 +99,15 @@ body {
 
 }
 
+#hover {
+    background-color: white;
+    color: black;
+}
 
+#hover:hover {
+    background-color: #DD0000;
+    color: white;
+}
 
 #different {
     color: white;
