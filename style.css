@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
+
 }
 
 #first {
@@ -142,8 +143,17 @@ body {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
     column-gap: 2px;
-    flex-wrap: nowrap;
-    justify-items: center;
 
 
+
+
+}
+
+.blog-info {
+    font-size: 15px;
+
+}
+
+.blog-info img {
+    width: 250px;
 }
