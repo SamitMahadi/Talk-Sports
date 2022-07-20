@@ -1,0 +1,231 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+    width: 1150px;
+    padding: 30px;
+
+}
+
+.container-2 {
+    padding-left: 30px;
+    display: flex;
+
+}
+
+.top-section {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-left: 20px;
+
+
+    justify-content: center;
+
+}
+
+.marcello {
+    width: 581px;
+    height: 613px;
+}
+
+.main-heading {
+    font-size: 70px;
+    width: 531px;
+    height: 240px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.paragraph-1 {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 5px;
+    text-align: left;
+
+
+}
+
+.live {
+    color: white;
+    background-color: #DD0000;
+    border: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+
+}
+
+/* article styles */
+.article-1 {
+    padding-left: 95px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+
+.filter-button {
+    background-color: white;
+    color: black;
+    width: 252px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600px;
+
+
+}
+
+#different {
+    color: white;
+    background-color: #DD0000;
+}
+
+
+
+.filter-menu {
+    width: 305px;
+    height: 295px;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    border-radius: 30px;
+}
+
+
+.transfer-button {
+    color: black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2x solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600px;
+}
+
+.blog-icon {
+    display: flex;
+    gap: 100px;
+    padding-top: -100px;
+}
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 2px;
+
+
+
+
+
+}
+
+.blog-info {
+    font-size: 15px;
+
+}
+
+.blog-info img {
+    width: 250px;
+}
+
+/* FOOTER */
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    color: gray;
+
+    width: 70%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: grey;
+}
+
+.menu a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    padding-right: 23px;
+
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    color: grey;
+    margin: 16px 0 48px 0;
+    gap: 10px;
+    font-size: large;
+}
+
+.upcoming {
+    padding-right: 80px;
+    text-align: center;
+}
+
+.match {
+    padding-top: 80px;
+}
+
+.another {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    padding-bottom: 200px;
+}
